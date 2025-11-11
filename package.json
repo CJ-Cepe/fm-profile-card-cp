@@ -1,0 +1,32 @@
+{
+  "name": "fm-profile-card-cp",
+  "version": "1.0.0",
+  "description": "![Design preview for the Profile card component coding challenge](preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c",
+    "watch": "rollup -c -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CJ-Cepe/fm-profile-card-cp.git"
+  },
+  "author": "CJ-Cepe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CJ-Cepe/fm-profile-card-cp/issues"
+  },
+  "homepage": "https://github.com/CJ-Cepe/fm-profile-card-cp#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.28.3",
+    "@babel/core": "^7.28.5",
+    "@babel/preset-env": "^7.28.5",
+    "@babel/preset-react": "^7.28.5",
+    "@rollup/plugin-babel": "^6.1.0",
+    "@rollup/plugin-commonjs": "^29.0.0",
+    "@rollup/plugin-node-resolve": "^16.0.3",
+    "@rollup/plugin-replace": "^6.0.3",
+    "rollup": "^4.53.2"
+  }
+}
