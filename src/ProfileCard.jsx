@@ -17,6 +17,8 @@ export default function ProfileCard() {
         <img
           src="./images/image-victor.jpg"
           alt="Victor Crest"
+          width="96px"
+          height="96px"
           className="profile-card__avatar"
         />
         <h2 className="profile-card__name">
@@ -26,15 +28,9 @@ export default function ProfileCard() {
       </div>
       <div className="profile-card__footer">
         <div className="profile-card__stats">
-          <div className="profile-card__stat">
-            <ProfileCardStats value="80K" label="Followers" />
-          </div>
-          <div className="profile-card__stat">
-            <ProfileCardStats value="803K" label="Likes" />
-          </div>
-          <div className="profile-card__stat">
-            <ProfileCardStats value="1.4K" label="Photos" />
-          </div>
+          <ProfileCardStats value="80K" label="Followers" />
+          <ProfileCardStats value="803K" label="Likes" />
+          <ProfileCardStats value="1.4K" label="Photos" />
         </div>
       </div>
     </article>
